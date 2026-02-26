@@ -49,7 +49,7 @@ export const ThreatMonitor = () => {
               endAngle={-270}
             >
               <PolarAngleAxis type="number" domain={[0, 100]} angleAxisId={0} tick={false} />
-              <RadialBar background clockWise dataKey="value" minPointSize={5} />
+              <RadialBar background clockwise dataKey="value" minPointSize={5} />
               <text x="50%" y="50%" textAnchor="middle" dominantBaseline="middle" className="text-2xl fill-current">
                 {threats.risk}%
               </text>
